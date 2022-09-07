@@ -43,7 +43,7 @@ LAUNCH_CONTAINER_IMAGE="bash"
 LAUNCH_CONTAINER_RO_WORKDIR=".."
 
 # Path relative to LAUNCH_CONTAINER_RO_WORKDIR.
-LAUNCH_CONTAINER_COMMAND="bash deployment/echoargs"
+LAUNCH_CONTAINER_COMMAND="bash launcher/echoargs"
 
 # Container name and also used in logging.
 LAUNCH_CONTAINER_RUN_NAME="test_launch_container"
